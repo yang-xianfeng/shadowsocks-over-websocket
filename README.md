@@ -16,7 +16,7 @@
 
 ### 3.创建 [Heroku](https://dashboard.heroku.com/new?org=personal-apps) 应用
 ![2](./imgs/2.png)
-登陆 Heroku 帐号，进入 [Dashboard](https://dashboard.heroku.com/apps) 页面  ==> Create New App ==> 输入 App Name  ==>  Create App
+登陆 Heroku 帐号，进入 [Dashboard](https://dashboard.heroku.com/apps) 页面  ==> Create New App ==> 输入 App Name (mygoogledev)  ==>  Create App
 
 ---
 
@@ -68,7 +68,7 @@ Setting 页面 ==> Reveal Config Vars
 1. 安装 [nodejs](https://nodejs.org/en/download/) 和 [git](https://git-scm.com/downloads)
 2. 执行 `git clone https://github.com/VincentChanX/shadowsocks-over-websocket.git` 命令
 1. **进到本项目目录**，执行`npm install` 命令
-2. 执行 `node local.js -s app名称.herokuapp.com -l 1080 -m 设置的加密算法 -k 设置的密码 -p 80` 命令，启动成功
+2. 执行 `node local.js -s Appname(mygoogledev).herokuapp.com -l 1080 -m 设置的加密算法(aes-256-cfb) -k (xx@hk)设置的密码 -p 80` 命令，启动成功
 
 
 ## Chrome 浏览器配置
